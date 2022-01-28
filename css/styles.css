@@ -218,11 +218,33 @@ a {
 .bgc + .bgc {
   margin-left: 30px;
 }
+
 .section-li {
   margin-right: 30px;
 }
 .section-li:nth-child(4n) {
   margin-right: 0px;
+}
+.section-li::before {
+  display: block;
+  height: 120px;
+  content: "";
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section-li.vector::before {
+  background-image: url(../css/images-svg/Vector.svg);
+}
+.section-li.clock::before {
+  background-image: url(../css/images-svg/Clock.svg);
+}
+.section-li.tv::before {
+  background-image: url(../css/images-svg/tv.svg);
+}
+.section-li.astronaut::before {
+  background-image: url(../css/images-svg/astronaut.svg);
 }
 
 .section-one {
@@ -240,7 +262,7 @@ a {
   color: var(--primary-text-color);
 
   margin-bottom: 10px;
-  margin-top: 0px;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -342,7 +364,7 @@ a {
   letter-spacing: 0.03em;
 
   margin-top: 0px;
-  margin-bottom: 0[x];
+  margin-bottom: 0px;
 }
 /* Footer */
 .footer {
@@ -443,7 +465,7 @@ a {
   padding-right: 15px;
 }
 .two {
-  display: flex;
+  display: inline-flex;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
