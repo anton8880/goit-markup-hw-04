@@ -50,6 +50,9 @@ a {
 
   margin: 0px;
 }
+.img {
+  display: block;
+}
 .portfolio {
   display: flex;
   padding-left: 0px;
