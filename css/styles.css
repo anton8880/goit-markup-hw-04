@@ -36,10 +36,10 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .paragraph-two {
   color: var(--title-text-color);
@@ -48,17 +48,20 @@ a {
   line-height: 1.9;
   letter-spacing: 0.03em;
 
-  margin-bottom: 20px;
-  margin-top: 0px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 0px;
 }
 .portfolio {
   display: flex;
   padding-left: 0px;
   justify-content: center;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
+}
+.div-portfolio {
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .portfolio-flex {
@@ -66,26 +69,15 @@ a {
   flex-wrap: wrap;
   padding-left: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -30px;
+  margin-right: -30px;
 }
 
-.portfolio-flex:nth-last-child(3n) {
-  margin-right: 0px;
-}
 .flex-element {
-  display: inline-block;
-  width: 372px;
-  margin: 0 auto;
-  border: 1px solid #eeeeee;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 370px;
 }
-
-.flex-element.margin {
-  margin-top: 30px;
-}
-.flex-element.margin.w {
-  margin-bottom: 94px;
-}
-
 .item-two + .item-two {
   margin-left: 8px;
 }
@@ -134,7 +126,7 @@ a {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
@@ -143,7 +135,7 @@ a {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav .link.current {
@@ -159,7 +151,7 @@ a {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .cont-nav .link:hover,
@@ -167,7 +159,7 @@ a {
   color: var(--accent-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .cont-nav.item + .item {
@@ -393,7 +385,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 9px;
 }
 /* Button */
@@ -426,8 +418,8 @@ a {
   padding: 6px 22px;
   min-width: 73px;
 
-  margin-top: 94px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   background-color: #f5f4fa;
 
@@ -456,6 +448,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 .container {
   margin-left: auto;
@@ -469,6 +462,10 @@ a {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .p {
