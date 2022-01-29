@@ -197,9 +197,12 @@ a {
 
 .hero {
   background-color: #2f303a;
+  background: rgba(47, 48, 58, 0.4);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-image: url(/images/bgc-image.jpg);
+  background-position: center;
 }
 
 /* Section */
@@ -209,6 +212,7 @@ a {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   width: 270px;
+  padding-bottom: 30px;
 }
 .bgc + .bgc {
   margin-left: 30px;
@@ -444,6 +448,55 @@ a {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.clients-one {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients {
+  display: inline-block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rr {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.container.clients-one {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.clients + .clients {
+  margin-left: 30px;
+}
+.clients-one {
+  padding-left: 0px;
+}
+.clients.logo {
+  background-image: url(/css/images-svg/Logo.svg);
+}
+.clients.logo-two {
+  background-image: url(/css/images-svg/Logo-two.svg);
+}
+.clients.logo-three {
+  background-image: url(/css/images-svg/Logo-three.svg);
+}
+.clients.logo-four {
+  background-image: url(/css/images-svg/Logo-four.svg);
+}
+.clients.logo-five {
+  background-image: url(/css/images-svg/Logo-five.svg);
+}
+.clients.logo-six {
+  background-image: url(/css/images-svg/Logo-six.svg);
+}
 .add {
   font-family: Roboto;
   font-style: normal;
@@ -486,5 +539,5 @@ a {
 }
 
 .social-network {
-  margin-bottom: 42px;
+  display: block;
 }
