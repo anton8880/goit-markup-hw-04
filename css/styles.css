@@ -484,3 +484,7 @@ a {
 .p:nth-last-child(3n) {
   margin-right: 0px;
 }
+
+.social-network {
+  margin-bottom: 42px;
+}
