@@ -175,10 +175,23 @@ a {
   padding-bottom: 32px; */
 }
 .cont-nav.list {
+  align-items: center;
   margin-left: auto;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.item-icon {
+  margin-right: 10px;
+}
+.envelope {
+  width: 16px;
+  height: 12px;
+}
+.tel {
+  width: 10px;
+  height: 16px;
 }
 
 /* Hero */
@@ -201,8 +214,10 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-image: url(/images/bgc-image.jpg);
+  background-image: url(/images/Img-2.svg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .social-links {
   display: flex;
@@ -227,6 +242,22 @@ a {
   margin-right: 0px;
 }
 
+/* Примеры работ */
+.background-image {
+  display: flex;
+  width: 70px;
+  height: 70px;
+}
+.background-context {
+  display: flex;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
 /* Section */
 .bgc {
   background-color: #ffffff;
@@ -239,33 +270,11 @@ a {
 .bgc + .bgc {
   margin-left: 30px;
 }
-
 .section-li {
   margin-right: 30px;
 }
 .section-li:nth-child(4n) {
   margin-right: 0px;
-}
-.section-li::before {
-  display: block;
-  height: 120px;
-  content: "";
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.section-li.vector::before {
-  background-image: url(../css/images-svg/Vector.svg);
-}
-.section-li.clock::before {
-  background-image: url(../css/images-svg/Clock.svg);
-}
-.section-li.tv::before {
-  background-image: url(../css/images-svg/tv.svg);
-}
-.section-li.astronaut::before {
-  background-image: url(../css/images-svg/astronaut.svg);
 }
 
 .section-one {
@@ -387,6 +396,41 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+/* Постояные клиенты */
+.permanent-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-image {
+  display: flex;
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-text-color);
+}
+
+.clients-logo {
+  display: block;
+  fill: #afb1b8;
+}
+
 /* Footer */
 .footer {
   background-color: #2f303a;
@@ -470,55 +514,6 @@ a {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.clients-one {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.clients {
-  display: inline-block;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.rr {
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.container.clients-one {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.clients + .clients {
-  margin-left: 30px;
-}
-.clients-one {
-  padding-left: 0px;
-}
-.clients.logo {
-  background-image: url(/css/images-svg/Logo.svg);
-}
-.clients.logo-two {
-  background-image: url(/css/images-svg/Logo-two.svg);
-}
-.clients.logo-three {
-  background-image: url(/css/images-svg/Logo-three.svg);
-}
-.clients.logo-four {
-  background-image: url(/css/images-svg/Logo-four.svg);
-}
-.clients.logo-five {
-  background-image: url(/css/images-svg/Logo-five.svg);
-}
-.clients.logo-six {
-  background-image: url(/css/images-svg/Logo-six.svg);
-}
 .add {
   font-family: Roboto;
   font-style: normal;
