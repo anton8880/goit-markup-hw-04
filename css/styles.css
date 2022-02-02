@@ -185,9 +185,21 @@ a {
 .item-icon {
   margin-right: 10px;
 }
+.item-icon.envelope{
+  fill: #757575;
+}
 .envelope {
   width: 16px;
   height: 12px;
+}
+.envelope:hover
+.envelope:focus{
+  fill: #2196F3;
+}
+
+.item-icon.tel{
+  fill: #757575;
+
 }
 .tel {
   width: 10px;
@@ -235,6 +247,17 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+.link-icon{
+  fill: #AFB1B8;
+}
+.link-icon:hover{
+  color: #ffffff;
+}
+.social-links .link:hover
+{
+  background-color: var(--accent-text-color);
+}
+
 .social-links > li {
   margin-right: 10px;
 }
