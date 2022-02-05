@@ -205,7 +205,7 @@ a {
 .item-icon.tel:hover{
   fill: var(--accent-text-color);
 }
-.item-icon.tel{
+.item-icon.tel:focus{
   fill: var(--accent-text-color);
 }
 .tel {
@@ -226,14 +226,19 @@ a {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+.footer-links{
+  display: block;
+  align-items: baseline;
+}
+
 
 .hero {
   background-color: #2f303a;
-  background: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+  url(/images/Img-2.svg);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-image: url(/images/Img-2.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,6 +248,9 @@ a {
   padding: 0;
   margin: 0;
   justify-content: center;
+}
+.footer-icon{
+  margin-left: 70px;
 }
 
 .social-links .link {
@@ -497,6 +505,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-left: 516px;
 
   color: #FFFFFF;
 }
