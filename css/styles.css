@@ -226,11 +226,6 @@ a {
   margin-top: 0px;
   margin-bottom: 30px;
 }
-.footer-links{
-  display: block;
-  align-items: baseline;
-}
-
 
 .hero {
   background-color: #2f303a;
@@ -249,9 +244,7 @@ a {
   margin: 0;
   justify-content: center;
 }
-.footer-icon{
-  margin-left: 70px;
-}
+
 
 .social-links .link {
   display: flex;
@@ -291,6 +284,7 @@ a {
 .social-links > li:last-child {
   margin-right: 0px;
 }
+
 
 
 /* Примеры работ */
@@ -500,6 +494,8 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 .join{
+  padding: 0;
+  margin: 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
